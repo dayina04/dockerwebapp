@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: shaikmustafa/socialmedia:app
+          image: database.azurecr.io/app:26
           ports:
             - containerPort: 8080
       imagePullSecrets:
